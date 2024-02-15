@@ -1,1 +1,6 @@
-git  restore --source "version" "nombre del archivo"
+1. git  restore --source "version" "nombre del archivo"   ----> para volver ala version anterior.
+2. git branch nos muestra las ramas que tenemos en nuestro ptoyecto
+3. git checkout -c usuario para crear una nueva rama de nuestro proyec.
+4. git switch ara seleccionar las ramas del proyecto
+5. git push origin desarrollo  para gurdar en la rama seleccionado
+
