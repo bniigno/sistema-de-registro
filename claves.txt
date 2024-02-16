@@ -3,4 +3,26 @@
 3. git checkout -c usuario para crear una nueva rama de nuestro proyec.
 4. git switch ara seleccionar las ramas del proyecto
 5. git push origin desarrollo  para gurdar en la rama seleccionado
+git merge desarrollo
+6. git push origin main para fucionar  codigos en el entorno de trabajo
+--- para fucionar rams de mi proyecto-----
+git log --oneline
+git switch main 
+git merge desarrollo
+git log --oneline
+git push origin main
+
+creando otro repositorio en git
+…or create a new repository on the command line
+echo "# sistema-de-ventas-2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bniigno/sistema-de-ventas-2.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/bniigno/sistema-de-ventas-2.git
+git branch -M main
+git push -u origin main
 
